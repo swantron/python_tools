@@ -1,4 +1,6 @@
-year = int(input("Which year do you want to check? "))
+# prompt for input
+print("Determine leap year..")
+year = int(input("Year to check: "))
 
 if year % 4 == 0:
     if year % 100 == 0:
