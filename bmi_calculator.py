@@ -2,9 +2,8 @@
 height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
 
+# logic
 bmi = round(weight / (height ** 2))
-bmi_raw = weight / (height ** 2)
-# print(f"{weight} % ({height} x {height}) = {bmi_raw}")
 if bmi < 18.5:
     print(f"Your BMI is {bmi}, you are underweight.")
 elif bmi >= 18.5 and bmi < 25:
