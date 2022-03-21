@@ -25,8 +25,8 @@ xscore = str(last)+str(first)
 score = int(xscore)
 
 if score < 10 or score > 90:
-    print(f"Your score is {score}, you go together like coke and mentos.")
+    print(f"Your score is {score}, great.")
 elif score > 40 and score < 50:
-    print(f"Your score is {score}, you are alright together.")
+    print(f"Your score is {score}, okay.")
 else:
-    print(f"Your score is {score}.")
+    print(f"Your score is {score}, bad.")
